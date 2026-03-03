@@ -1,12 +1,4 @@
 
-> [!TIP]
-> Upstream image source code
-> 
-> **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
-> 
-> Example Downstream image
-> 
-> **[adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)**
  
 # Adomi - Odoo Boilerplate
 
@@ -15,6 +7,15 @@ Odoo is an open-source ERP platform that bundles common business apps (CRM, Sale
 This repository is a starter template for getting up and running with Odoo quickly. 
 
 Clone it, add your custom addons, to the addons folder, configure your instance, and you're ready to ship Odoo
+
+> [!TIP]
+> Upstream image source code
+> 
+> **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
+> 
+> Example Downstream image
+> 
+> **[adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)**
 
 # Highlights
 
