@@ -2,8 +2,11 @@
 > [!TIP]
 > Upstream image source code
 > [adomi-io/odoo](https://github.com/adomi-io/odoo)
+> 
+> Example Downstream image
+> [adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)
  
-# Adomi-io - Odoo Boilerplate
+# Adomi - Odoo Boilerplate
 
 Odoo is an open-source ERP platform that bundles common business apps (CRM, Sales, Inventory, Accounting, HR, Manufacturing, and more) into a single system.
 
