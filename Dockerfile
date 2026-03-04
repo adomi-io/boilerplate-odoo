@@ -30,7 +30,7 @@ FROM configuration_layer
 
 # Odoo will run as a non-root user
 # UID 1000 is the default user for Ubuntu
-USER 1000
+USER ubuntu
 
 # We will work in the volumes directory, where our addons
 # and mounted files are located

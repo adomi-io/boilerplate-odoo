@@ -87,19 +87,6 @@ docker compose exec odoo /bin/bash
 * `docker/` (optional)
   How to run your project from ghcr using Docker Compose.
 
-# Using this boilerplate in development
-
-## Addons workflow
-
-1. Create or copy addons into `./addons`
-2. Restart (or upgrade the module inside Odoo)
-
-Typical restart:
-
-```bash
-docker compose restart odoo
-```
-
 ## Debugging
 
 If you’re using the Adomi Odoo image as your runtime, you can also use it as a development environment.
