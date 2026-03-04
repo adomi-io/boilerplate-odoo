@@ -12,12 +12,12 @@ Clone it, add your custom addons, to the addons folder, configure your instance,
 > [!TIP]
 > Upstream image source code
 > 
-> **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
+> - [adomi-io/odoo](https://github.com/adomi-io/odoo)
  
 > [!TIP]
 > Example Downstream image
 > 
-> **[adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)**
+> - [adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)
 
 # Highlights
 
