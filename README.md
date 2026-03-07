@@ -88,6 +88,23 @@ docker compose logs -f
 docker compose exec odoo /bin/bash
 ```
 
+# Project layout
+
+* `addons/`
+  Your custom Odoo addons live here.
+
+* `config/`
+  Odoo config files you want to mount into the container.
+
+* `hooks/`
+  Startup/setup scripts (auto-install modules, bootstrap config, etc).
+
+* `extra_addons/` (optional)
+  Extra addons you want to bake into a downstream image or mount separately from `addons/`.
+
+* `docker/` (optional)
+  How to run your project from ghcr using Docker Compose.
+
 # Changing the base image
 This repo lets you use any base image you want. This lets you extend any part of our stack,
 and quickly swap out the base image for your own image, or one of our pre-configured images.
@@ -119,24 +136,6 @@ services:
       args:
         ODOO_BASE_IMAGE: ghcr.io/your-company/odoo-enterprise:latest
 ```
-
-
-# Project layout
-
-* `addons/`
-  Your custom Odoo addons live here.
-
-* `config/`
-  Odoo config files you want to mount into the container.
-
-* `hooks/`
-  Startup/setup scripts (auto-install modules, bootstrap config, etc).
-
-* `extra_addons/` (optional)
-  Extra addons you want to bake into a downstream image or mount separately from `addons/`.
-
-* `docker/` (optional)
-  How to run your project from ghcr using Docker Compose.
 
 ## Debugging
 
