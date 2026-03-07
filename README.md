@@ -118,11 +118,6 @@ quickly take a copy of, or to swap a user's underlying image to Enterprise quick
 
 You can change the base image via a build arg in the `docker-compose.yml`, or by editing the `Dockerfile`.
 
-To make your own base image, simply take a copy of this repo, and add your custom addons to the `additional_addons` folder,
-and push your code to GitHub. GitHub Actions will build and push your image to GitHub Container Registry. Copy the image URL
-from the Packages tab, and use it as the base image.
-
-
 ## Dockerfile
 If you would like to change the default base image for your project, after taking a copy of this template,
 change the first line of the `Dockerfile` to your desired base image url:
@@ -145,6 +140,14 @@ services:
       args:
         ODOO_BASE_IMAGE: ghcr.io/your-company/odoo-enterprise:latest
 ```
+
+# Making your own base image
+
+To make your own base image, simply take a copy of this repo, and add your custom addons to the `additional_addons` folder,
+and push your code to GitHub. GitHub Actions will build and push your image to GitHub Container Registry. Copy the image URL
+from the Packages tab, and use it as the base image.
+
+See our [Odoo Community Base image](https://github.com/adomi-io/odoo-community-base) for an example
 
 ## Debugging
 
