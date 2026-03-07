@@ -1,5 +1,3 @@
-
-
 # Adomi - Odoo Boilerplate
 
 Odoo is an open-source ERP platform that bundles common business apps (CRM, Sales, Inventory, Accounting, HR, Manufacturing, and more) into a single system.
@@ -35,6 +33,17 @@ Clone it, add your custom addons, to the addons folder, configure your instance,
 >
 > **[Download Docker Desktop](https://www.docker.com/products/docker-desktop/)**
 
+Use this template to create your own Odoo project. 
+
+When you use this template, it will create you a GitHub repository with
+a CI/CD workflow that will optionally build and deploy your Odoo image to ghcr.
+
+Simply take a copy of this repo, upload your custom addons into the `addons` folder, and you're ready to go!
+
+# [Use this GitHub Template](https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io)
+
+## Manual setup
+
 ## 1) Clone
 
 ```bash
@@ -69,6 +78,8 @@ docker compose logs -f
 ```bash
 docker compose exec odoo /bin/bash
 ```
+
+# Changing the base image
 
 # Project layout
 
