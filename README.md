@@ -111,6 +111,14 @@ quickly take a copy of, or to swap a user's underlying image to Enterprise quick
 
 You can change the base image via a build arg in the `docker-compose.yml`, or by editing the `Dockerfile`.
 
+> [!TIP]
+> Try our [odoo-community-base](https://github.com/adomi-io/odoo-community-base) base image
+> which includes some helpful OCA packages and additional addons. Set the `ODOO_DOCKER_IMAGE` arg to:
+> ```md
+> ghcr.io/adomi-io/odoo-community-base:latest
+> ```
+
+
 ## Dockerfile
 If you would like to change the default base image for your project, after taking a copy of this template,
 
