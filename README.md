@@ -40,7 +40,15 @@ a CI/CD workflow that will optionally build and deploy your Odoo image to ghcr.
 
 Simply take a copy of this repo, upload your custom addons into the `addons` folder, and you're ready to go!
 
-<a class="github-button" href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-repo-template" data-size="large" aria-label="Get started with Odoo">Use this template</a>
+<p align="center">
+  <a href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io">
+    <img
+      src="https://img.shields.io/badge/Use%20this%20template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
+      alt="Use this template"
+      height="60"
+    />
+  </a>
+</p>
 
 ## Manual setup
 
