@@ -125,7 +125,8 @@ ARG ODOO_BASE_IMAGE=ghcr.io/adomi-io/odoo:19.0
 
 ## Build arg
 
-For example, if you have a pre-configured image with Enterprise, you can override the base image in the `docker-compose.yml`
+You can override the build arg on a per-deployment basis. This is helpful if you wish to offer both a community and enterprise version of Odoo.
+If you have a pre-configured image with Enterprise, you can override the base image in the `docker-compose.yml`
 
 ```yaml
 services:
