@@ -103,6 +103,13 @@ docker compose exec odoo /bin/bash
   Extra addons you want to bake into a downstream image or mount separately from `addons/`.
 
 # Changing the base image
+> [!TIP]
+> Try our [odoo-community-base](https://github.com/adomi-io/odoo-community-base) base image
+> which includes some helpful OCA packages and additional addons. Set the `ODOO_DOCKER_IMAGE` arg to:
+> ```md
+> ghcr.io/adomi-io/odoo-community-base:latest
+> ```
+
 This repo lets you use any base image you want. This lets you extend any part of our stack,
 and quickly swap out the base image for your own image, or one of our pre-configured images.
 
@@ -110,13 +117,6 @@ This allows you to have a custom pre-built version of Odoo with all your custom 
 quickly take a copy of, or to swap a user's underlying image to Enterprise quickly and easily. 
 
 You can change the base image via a build arg in the `docker-compose.yml`, or by editing the `Dockerfile`.
-
-> [!TIP]
-> Try our [odoo-community-base](https://github.com/adomi-io/odoo-community-base) base image
-> which includes some helpful OCA packages and additional addons. Set the `ODOO_DOCKER_IMAGE` arg to:
-> ```md
-> ghcr.io/adomi-io/odoo-community-base:latest
-> ```
 
 
 ## Dockerfile
