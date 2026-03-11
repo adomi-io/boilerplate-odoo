@@ -126,6 +126,8 @@ docker compose exec odoo /bin/bash
 > ```
 
 > [!TIP]
+> **Want to lower your license costs?**
+> 
 > Try our [odoo-community-base](https://github.com/adomi-io/odoo-community-base) base image
 > which includes some helpful OCA packages and additional addons. Set the `ODOO_DOCKER_IMAGE` arg to:
 > ```md
