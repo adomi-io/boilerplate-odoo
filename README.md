@@ -120,7 +120,7 @@ docker compose exec odoo /bin/bash
 > First copy [adomi-io/boilerplate-odoo-enterprise](https://github.com/adomi-io/boilerplate-odoo-enterprise).
 > It will build your team a custom image with Enterprise.
 > 
-> Set the `ODOO_DOCKER_IMAGE` arg to:
+> Set the `ODOO_BASE_IMAGE` arg to:
 > ```md
 > ghcr.io/your-company/your-repo-name:latest
 > ```
@@ -129,7 +129,7 @@ docker compose exec odoo /bin/bash
 > **Want to lower your license costs?**
 > 
 > Try our [odoo-community-base](https://github.com/adomi-io/odoo-community-base) base image
-> which includes some helpful OCA packages and additional addons. Set the `ODOO_DOCKER_IMAGE` arg to:
+> which includes some helpful OCA packages and additional addons. Set the `ODOO_BASE_IMAGE` arg to:
 > ```md
 > ghcr.io/adomi-io/odoo-community-base:latest
 > ```
