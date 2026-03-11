@@ -11,6 +11,7 @@ on:
         description: "Skip unit tests when building this image"
         type: boolean
         default: true
+  # This will enable a daily build of the image
   schedule:
     - cron: "38 3 * * *"
   push:
