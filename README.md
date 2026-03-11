@@ -115,7 +115,9 @@ docker compose exec odoo /bin/bash
 
 # Changing the base image
 > [!TIP]
-> **Looking for Enterprise?** First copy [adomi-io/odoo-enterprise-boilerplate](https://github.com/adomi-io/odoo-enterprise-boilerplate).
+> **Looking for Enterprise?** 
+> 
+> First copy [adomi-io/odoo-enterprise-boilerplate](https://github.com/adomi-io/odoo-enterprise-boilerplate).
 > It will build your team a custom image with Enterprise.
 > 
 > Set the `ODOO_DOCKER_IMAGE` arg to:
