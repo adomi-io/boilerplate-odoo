@@ -1,3 +1,11 @@
+> [!TIP]
+> **Looking for Odoo Enterprise?** 
+> 
+> Start with our Odoo Enterprise boilerplate
+> 
+> - **[Odoo Enterprise Boilerplate (Partners)](https://github.com/adomi-io/odoo-enterprise-boilerplate)**
+
+
 <p align="center">
   <a href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io">
     <img
@@ -18,14 +26,17 @@ Odoo's Github repository.
 Clone it, add your custom addons, and you're ready to ship Odoo
 
 > [!TIP]
-> Upstream image source code
+> **Upstream image source code**
 > 
 > - [adomi-io/odoo](https://github.com/adomi-io/odoo)
  
 > [!TIP]
-> Example Downstream image
+> **Downstream images**
+> 
+> You can copy these to quickly get started with your Odoo project
 > 
 > - [adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)
+> - [adomi-io/odoo-enterprise-boilerplate](https://github.com/adomi-io/odoo-enterprise-boilerplate)
 
 # Highlights
 
@@ -103,6 +114,15 @@ docker compose exec odoo /bin/bash
   Extra addons you want to bake into a downstream image or mount separately from `addons/`.
 
 # Changing the base image
+> [!TIP]
+> **Looking for Enterprise?** First copy [adomi-io/odoo-enterprise-boilerplate](https://github.com/adomi-io/odoo-enterprise-boilerplate).
+> It will build your team a custom image with Enterprise.
+> 
+> Set the `ODOO_DOCKER_IMAGE` arg to:
+> ```md
+> ghcr.io/your-company/your-repo-name:latest
+> ```
+
 > [!TIP]
 > Try our [odoo-community-base](https://github.com/adomi-io/odoo-community-base) base image
 > which includes some helpful OCA packages and additional addons. Set the `ODOO_DOCKER_IMAGE` arg to:
