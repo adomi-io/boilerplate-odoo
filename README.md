@@ -9,14 +9,14 @@
   </a>
 </p>
 
+# Adomi - Odoo Boilerplate
+
 > [!TIP]
 > **Looking for Odoo Enterprise?** 
 > 
 > Start with our Odoo Enterprise boilerplate
 > 
 > - **[Odoo Enterprise Boilerplate (Partners)](https://github.com/adomi-io/odoo-enterprise-boilerplate)**
-
-# Adomi - Odoo Boilerplate
 
 Odoo is an open-source ERP platform that bundles common business apps (CRM, Sales, Inventory, Accounting, HR, Manufacturing, and more) into a single system.
 
