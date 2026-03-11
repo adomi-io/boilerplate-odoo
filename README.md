@@ -30,8 +30,7 @@ Clone it, add your custom addons, and you're ready to ship Odoo
 > **Upstream image source code**
 > 
 > - [adomi-io/odoo](https://github.com/adomi-io/odoo)
- 
-> [!NOTE]
+>
 > **Downstream images**
 > 
 > You can copy these to quickly get started with your Odoo project
