@@ -30,7 +30,7 @@ Clone it, add your custom addons, and you're ready to ship Odoo
 > **Want to lower your license costs?**
 > 
 > Try our [odoo-community-base](https://github.com/adomi-io/odoo-community-base) base image
-> which includes some helpful OCA packages and additional addons. Set the `ODOO_BASE_IMAGE` arg to:
+> which includes some helpful OCA packages and additional addons. Use this template, and set the `ODOO_BASE_IMAGE` arg to:
 > ```md
 > ghcr.io/adomi-io/odoo-community-base:latest
 > ```
